@@ -9,19 +9,39 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.10.0",
+    "@payloadcms/next-payload": "^0.1.11",
+    "@payloadcms/richtext-slate": "^1.5.2",
+    "@radix-ui/react-label": "^2.1.1",
+    "@radix-ui/react-slot": "^1.1.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "embla-carousel-autoplay": "^8.5.2",
+    "embla-carousel-react": "^8.5.2",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-tailwindcss": "^3.18.0",
+    "lucide-react": "^0.473.0",
+    "mongodb": "^6.13.0",
+    "next": "15.1.5",
+    "payload": "^3.21.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.1.5"
+    "react-hook-form": "^7.54.2",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.24.1"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
     "eslint": "^9",
     "eslint-config-next": "15.1.5",
-    "@eslint/eslintrc": "^3"
+    "eslint-plugin-import": "^2.31.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
